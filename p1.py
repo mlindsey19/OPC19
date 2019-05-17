@@ -3,6 +3,6 @@ x=int( sys.argv[1])
 y=1
 for _ in range(x):
     for _ in range(x-y+1):
-        print(y,end='')
-    print('')
+        sys.stdout.write(str(y))
+    print''
     y+=1
